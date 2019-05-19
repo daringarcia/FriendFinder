@@ -13,7 +13,7 @@ app.use(bodyPaser.json({ type: 'application/vnd.api+json'}));
 app.use(express.static('app/public'));
 
 //if it does not work try without .js
-require('./app/routing/api-routes.js')(app);
-require('./app/routing/html-routes.js')(app);
+require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/htmlRoutes.js')(app);
 
 app.listen(port, () => console.log('listening on port %s', port));

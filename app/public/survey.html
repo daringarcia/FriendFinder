@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find a Friend</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Bootstrap CSS Icons Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery Link -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Bootstrap JavaScript Link -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <div class="jumbotron">
+            <h1 class="text-center">Find your best friend</h1>
+            <hr>
+            <h4 class="text-center">Please answer the questions below</h4>
+            <br>
+
+            <div class="text-center">
+                <a href="/"><button class="btn btn-lg btn-primary below"><span class="fa fa-home"></span></button></a>
+            </div>
+        </div>
+
+        <!-- Survey -->
+        <div class="row">
+            <div class="col-lg-12">
+
+
+                <h4 class="text-center"><strong>Questionnaire</strong></h4>
+                <hr>
+
+                <h5>First Name (Required)</h5>
+                <input type="text" id="name" class="form-control" required>
+                <br>
+
+                <h5>Provide link to your photo (Required)</h5>
+                <input type="text" id="photo" class="form-control" required>
+                <br>
+
+                <h4>Question 1</h4>
+                <p>You're a self starter and do not need encouragement to put your ideas in motion.</p>
+                <select class="chosen-select" id="q1">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 2</h4>
+                <p>You laugh in the face of pressure.</p>
+                <select class="chosen-select" id="q2">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 3</h4>
+                <p>You run towards danger rather than run from it.</p>
+                <select class="chosen-select" id="q3">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 4</h4>
+                <p>You love animals but can't stand the sight of frogs; they terrify you.</p>
+                <select class="chosen-select" id="q4">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 5</h4>
+                <p>You prefer to be in crowds.</p>
+                <select class="chosen-select" id="q5">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 6</h4>
+                <p>You love all types of sports. If there's a winner and a loser, you're watching.</p>
+                <select class="chosen-select" id="q6">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 7</h4>
+                <p>You're an adventurer, you have your keys, passport and a packed bag ready to go at a moments notice.
+                </p>
+                <select class="chosen-select" id="q7">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 8</h4>
+                <p>Staying at home with a bowl of popcorn and watching a movie is your idea of a great time.</p>
+                <select class="chosen-select" id="q8">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 9</h4>
+                <p>You prefer variety to routine.</p>
+                <select class="chosen-select" id="q9">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <h4>Question 10</h4>
+                <p>You believe there is no absolute right or wrong.</p>
+                <select class="chosen-select" id="q10">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br></br>
+                <br>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+                        aria-hidden="true"></i>Submit</button>
+                <hr>
+
+                <!-- Footer -->
+                <footer class="footer text-center">
+                    <div class="container">
+                        <p><a href="/api/friends">Friends API Link</a></p>
+                    </div>
+                </footer>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>You would hit it off with:</strong></h2>
+                </div>
+                <div class="modal-body text-center">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="https://via.placeholder.com/150/0000FF/" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+        // When the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+        // Our api recognizes the route (/api/friends)... and then runs the associated code (found in apiRoutes.js).
+        // In this case the associated code "saves" the data to the friends.js file
+
+        // form inputs
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                $(".chosen-select").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+
+                return isValid;
+            }
+
+            if (validateForm()) {
+
+                var userData = {
+                    name: $("#name").val().trim(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val()
+                    ]
+                };
+
+                $.post("/api/friends", userData, function (data) {
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+                    $("#results-modal").modal("toggle");
+                });
+            }
+            else {
+                alert("Please complete all fields!");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

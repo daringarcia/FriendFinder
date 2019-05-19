@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Find A Friend</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Bootstrap CSS Icons Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
     <div class='container'>
         <div class='jumbotron'>
-            <div class='mnTilte'><h1>Find the your best friend</h1></div>
-            <h2 class='mnTitle'>Answer a few questions.</h2>
+            <div class='mnTitle'>
+                <h1 class='text-center'>Find your best friend</h1>
+                <h2 class='text-center'>Answer a few questions to find the best match</h2>
+            </div>
+            <br>
+            <div class="text-center">
+                <a href="/survey"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span> Click here
+                        to begin</button></a>
+            </div>
         </div>
-
+        <footer class="footer text-center">
+            <div class="container">
+                <p><a href="/api/friends">Friends API Link</a></p>
+            </div>
+        </footer>
     </div>
-    
+
 </body>
+
 </html>
